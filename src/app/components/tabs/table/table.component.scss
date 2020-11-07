@@ -1,0 +1,14 @@
+$color-minimal: orange;
+$color-maximum: green;
+
+table {
+  width: 100%;
+}
+
+.minimal {
+  background-color: $color-minimal;
+}
+
+.maximum {
+  background-color: $color-maximum;
+}
