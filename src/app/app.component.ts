@@ -11,6 +11,8 @@ import { ChartDataSets } from 'chart.js';
 })
 export class AppComponent implements OnInit {
 
+  public title = 'Currency APP';
+
   public selectedCurrency: CurrencyCodeValue = 'R01235';
 
   constructor(private currencyService: CurrencyService) {}
